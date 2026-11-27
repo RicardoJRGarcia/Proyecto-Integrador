@@ -6,7 +6,7 @@ import time
 import sounddevice as sd
 from vosk import KaldiRecognizer, Model
 
-ESP32_IP = "192.168.1.161"  # Reemplaza por la IP real del ESP32
+ESP32_IP = "192.168.1.161"  
 ESP32_PORT = 8080
 
 MODELO_RUTA = "model_es"
